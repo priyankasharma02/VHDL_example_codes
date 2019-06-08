@@ -1,0 +1,13 @@
+E:/VHDL/ShiftOrRotate.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/ShiftOrRotate.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity ShiftOrRotate
+-- Compiling architecture ShiftOrRotate_arch of ShiftOrRotate
+
+} {} {}} E:/VHDL/ShiftOrRotate_tb.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/ShiftOrRotate_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity ShiftOrRotate_tb
+-- Compiling architecture ShiftOrRotate_tb_arch of ShiftOrRotate_tb
+
+} {} {}}

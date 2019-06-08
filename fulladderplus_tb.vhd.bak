@@ -1,0 +1,50 @@
+Library ieee;
+use ieee.std_logic_1164.all;
+
+entity fulladderplus_tb is
+end entity;
+
+architecture fulladderplus_tb_arch of fulladderplus_tb is
+  component fulladderplus is
+    port( a,b : in std_logic_vector(3 downto 0);
+        cin : in std_logic;
+        sum : out std_logic_vector(3 downto 0);
+        cout : out std_logic);
+  end component;
+  
+  Signal ta,tb,tsum : std_logic_vector(3 downto 0);
+  Signal tcin,tcout : std_logic;
+  
+  begin
+   inst: fulladderplus port map(ta,tb,tcin,tsum,tcout);
+    
+  process
+    begin
+      ta <= '0000';
+      tb <= '1111';
+      tcin <= '0';
+      wait for 20ns;
+     
+      ta <= '0101';
+      tb <= '1111';
+      tcin <= '1';
+      wait for 20ns;
+     
+      ta <= '1100';
+      tb <= '1010';
+      tcin <= '0';
+      wait for 20ns;
+     
+      ta <= '0001';
+      tb <= '1101';
+      tcin <= '1';
+      wait for 20ns;
+      
+      ta <= '0101';
+      tb <= '1101';
+      tcin <= '1';
+      wait for 20ns;
+    
+     
+end process;
+end fulladderplus_tb_arch;

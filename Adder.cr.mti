@@ -1,0 +1,95 @@
+E:/VHDL/rippleadder_tb.vhd {2 {vcom -work work -2002 -explicit E:/VHDL/rippleadder_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity rippleadder_tb
+-- Compiling architecture rippleadder_tb_arch of rippleadder_tb
+** Warning: [4] E:/VHDL/rippleadder_tb.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/rippleadder_tb.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/rippleadder_tb.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/rippleadder_tb.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/rippleadder_tb.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} E:/VHDL/adder_forgenerate.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/adder_forgenerate.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity adder_forgenerate
+-- Compiling architecture adder_forgenerate_arch of adder_forgenerate
+
+} {} {}} E:/VHDL/bcdadder.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/bcdadder.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bcdadder
+-- Compiling architecture bcdadder_arch of bcdadder
+
+} {} {}} E:/VHDL/fulladder1_tb_arch.vhd {2 {vcom -work work -2002 -explicit E:/VHDL/fulladder1_tb_arch.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity fulladder1_tb
+-- Compiling architecture fulladder1_tb_arch of fulladder1_tb
+** Warning: [4] E:/VHDL/fulladder1_tb_arch.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/fulladder1_tb_arch.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/fulladder1_tb_arch.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/fulladder1_tb_arch.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/fulladder1_tb_arch.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} E:/VHDL/adder_forgenerate_tb.vhd {2 {vcom -work work -2002 -explicit E:/VHDL/adder_forgenerate_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity adder_forgenerate_tb
+-- Compiling architecture adder_forgenerate_tb_arch of adder_forgenerate_tb
+** Warning: [4] E:/VHDL/adder_forgenerate_tb.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/adder_forgenerate_tb.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/adder_forgenerate_tb.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/adder_forgenerate_tb.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/adder_forgenerate_tb.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} E:/VHDL/bcdadder_tb.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/bcdadder_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity bcdadder_tb
+-- Compiling architecture bcdadder_tb_arch of bcdadder_tb
+
+} {} {}} E:/VHDL/fulladderplus.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/fulladderplus.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity fulladderplus
+-- Compiling architecture fulladderplus_arch of fulladderplus
+
+} {} {}} E:/VHDL/fulladderplus_tb.vhd {2 {vcom -work work -2002 -explicit E:/VHDL/fulladderplus_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity fulladderplus_tb
+-- Compiling architecture fulladderplus_tb_arch of fulladderplus_tb
+** Warning: [4] E:/VHDL/fulladderplus_tb.vhd(26): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/fulladderplus_tb.vhd(31): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/fulladderplus_tb.vhd(36): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/fulladderplus_tb.vhd(41): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/fulladderplus_tb.vhd(46): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} E:/VHDL/fulladder1.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/fulladder1.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity fulladder1
+-- Compiling architecture fulladder1_arch of fulladder1
+
+} {} {}} E:/VHDL/rippleadder.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/rippleadder.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity rippleadder
+-- Compiling architecture rippleadder_arch of rippleadder
+
+} {} {}}

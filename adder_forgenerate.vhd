@@ -1,0 +1,28 @@
+entity adder_forgenerate is
+  port(xin,yin : in bit_vector(7 downto 0);
+       carryin : in bit;
+       sum : out bit_vector(7 downto 0);
+       carryout : out bit);
+end entity;
+
+architecture adder_forgenerate_arch of adder_forgenerate is
+  component fulladder1 is
+    port(x: in bit;
+         y: in bit;
+         cin: in bit;
+         s: out bit;
+         cout: out bit);
+    end component;
+    
+    signal tc: bit_vector(8 downto 0);
+    
+    begin
+      tc(0) <= carryin;
+     gen: 
+      for i in 0 to 7 generate
+        inst: fulladder1 port map(xin(i),yin(i),tc(i),sum(i),tc(i+1));
+      end generate gen;
+        
+      carryout <= tc(8);
+      
+  end adder_forgenerate_arch;

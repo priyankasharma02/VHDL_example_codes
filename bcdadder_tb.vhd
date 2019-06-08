@@ -1,0 +1,49 @@
+Library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity bcdadder_tb is
+end entity;
+
+architecture bcdadder_tb_arch of bcdadder_tb is
+  
+  component bcdadder is
+     port( BCDa,BCDb : in std_logic_vector(3 downto 0);
+        BCDcin : in std_logic;
+        BCDsum : out std_logic_vector(3 downto 0);
+        BCDcout : out std_logic);
+   end component;
+   
+   Signal A,B : std_logic_vector(3 downto 0);
+   Signal Carryin: std_logic := '0';
+   Signal Sum : std_logic_vector(3 downto 0);
+   Signal carryout : std_logic;
+   
+ begin
+   
+   inst : bcdadder port map(A,B,Carryin,Sum,carryout);
+   
+   process
+     begin
+       A <= "0010";
+       B <= "1100";
+       wait for 10 ns;
+       
+       A <= "1111";
+       B <= "1000";
+       wait for 10 ns;
+       
+       A <= "0000";
+       B <= "1010";
+       wait for 10 ns;
+       
+       A <= "1001";
+       B <= "0101";
+       wait for 10 ns;
+       
+       A <= "0001";
+       B <= "0100";
+       wait for 10 ns;
+       
+  end process;
+end bcdadder_tb_arch;

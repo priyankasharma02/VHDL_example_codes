@@ -1,0 +1,53 @@
+Library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+Entity boothmul_tb is
+end entity;
+
+architecture boothmul_tb_arch of boothmul_tb is
+  
+  Component boothmul is
+    port( mpcd,mplr : in std_logic_vector(4 downto 0);
+          start : in std_logic;
+          result : out std_logic_vector(9 downto 0));
+end Component;
+
+  
+  Signal tmpcd,tmplr : std_logic_vector(4 downto 0);
+  Signal tstart: std_logic;
+  Signal tresult : std_logic_vector(9 downto 0);
+  
+ begin 
+inst : boothmul port map(tmpcd,tmplr,tstart,tresult);
+  
+  process
+    begin
+      
+      tstart <='1';
+      wait for 20 ns;
+      tstart <= '0';
+      wait for 50 ns;
+      
+    end process;
+    
+    process
+      begin
+      
+      tmpcd <= "01101";
+      tmplr <= "11001";
+      wait for 50 ns;
+      
+      tmpcd <= "11001";
+      tmplr <= "00100";
+      wait for 50 ns;
+      
+      tmpcd <= "01000";
+      tmplr <= "11000";
+      wait for 50 ns;
+      
+  end process;
+  
+end architecture;
+      
+      

@@ -1,0 +1,36 @@
+E:/VHDL/rippleadder_tb.vhd {2 {vcom -work work -2002 -explicit E:/VHDL/rippleadder_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity rippleadder_tb
+-- Compiling architecture rippleadder_tb_arch of rippleadder_tb
+** Warning: [4] E:/VHDL/rippleadder_tb.vhd(23): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/rippleadder_tb.vhd(28): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/rippleadder_tb.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/rippleadder_tb.vhd(38): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/rippleadder_tb.vhd(43): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} E:/VHDL/serialadder_tb.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/serialadder_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity serialadder_tb
+-- Compiling architecture serialadder_tb_arch of serialadder_tb
+
+} {} {}} E:/VHDL/dff.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/dff.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity dff
+-- Compiling architecture dff_arch of dff
+
+} {} {}} E:/VHDL/fulladder1.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/fulladder1.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity fulladder1
+-- Compiling architecture fulladder1_arch of fulladder1
+
+} {} {}} E:/VHDL/serialadder.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/serialadder.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity serialadder
+-- Compiling architecture serialadder_arch of serialadder
+
+} {} {}}

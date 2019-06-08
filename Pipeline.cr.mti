@@ -1,0 +1,35 @@
+E:/VHDL/reg.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/reg.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture reg_arch of reg
+
+} {} {}} E:/VHDL/PipedAdder.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/PipedAdder.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PipedAdder
+-- Compiling architecture PipedAdder_arch of PipedAdder
+
+} {} {}} E:/VHDL/PipedAdder_tb.vhd {2 {vcom -work work -2002 -explicit E:/VHDL/PipedAdder_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity PipedAdder_tb
+-- Compiling architecture PipedAdder_tb_arch of PipedAdder_tb
+** Warning: [4] E:/VHDL/PipedAdder_tb.vhd(45): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/PipedAdder_tb.vhd(50): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}} E:/VHDL/FA.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/FA.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FA
+-- Compiling architecture FA_arch of FA
+
+} {} {}}

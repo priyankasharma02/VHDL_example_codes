@@ -1,0 +1,17 @@
+E:/VHDL/And_gate.vhd {1 {vcom -work work -2002 -explicit E:/VHDL/And_gate.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity and_gate
+-- Compiling architecture model of and_gate
+
+} {} {}} E:/VHDL/and_tb.vhd {2 {vcom -work work -2002 -explicit E:/VHDL/and_tb.vhd
+Model Technology ModelSim ALTERA vcom 10.1b Compiler 2012.04 Apr 27 2012
+-- Loading package STANDARD
+-- Compiling entity and_tb
+-- Compiling architecture and_tb_arch of and_tb
+** Warning: [4] E:/VHDL/and_tb.vhd(21): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/and_tb.vhd(25): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/and_tb.vhd(29): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+** Warning: [4] E:/VHDL/and_tb.vhd(33): (vcom-1207) An abstract literal and an identifier must have a separator between them.
+
+} {} {}}
